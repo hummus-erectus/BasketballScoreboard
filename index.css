@@ -1,0 +1,42 @@
+@font-face {
+    font-family: digital;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+    width: 360px;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+}
+
+h3 {
+    font-size: 1.5em;
+    
+}
+
+p {
+    width: 90px; 
+    margin: 20px;
+    background-color: black;
+    font-size: 3.5em;
+    text-align: right;
+    padding: 5px;
+    padding-top: 15px;
+    color: red;
+    font-family: digital;
+}
+
+button {
+    margin-bottom: 20px;
+    background-color: inherit;
+    color: inherit;
+    border-color: rgb(54, 54, 116);
+    font-family: digital;
+}
